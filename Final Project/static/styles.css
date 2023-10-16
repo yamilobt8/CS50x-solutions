@@ -1,0 +1,179 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.card {
+    transition: 0.7s ease;
+    box-shadow: 0 5px 15px rgba(1 1 1/ 15);
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.lesson {
+    box-shadow: 0 5px 15px rgba(200 200 200/ 15);
+    border-radius: 5px;
+    border: 1px solid #fff;
+
+}
+
+.post:hover {
+    /* transform: scale(1.1); */
+    opacity: 0.9;
+}
+
+.button_width {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 8px;
+}
+
+.user-img {
+    height: 150px;
+    width: 150px;
+    margin-right: 8px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nobull {
+    list-style-type: none;
+}
+
+.arabic-sc {
+    font-family: 'Rakkas', cursive;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.registration-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.registration-form h2 {
+    color: #3498db;
+}
+
+.registration-form label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo-image {
+    height: 30px; /* Adjust the height as needed */
+    display: block; /* Display the image on its own line */
+    margin-right: 0; /* Remove any right margin */
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #007bff; /* Arrow color */
+    margin: 0 10px; /* Adjust spacing between courses and arrows */
+    transition: border-top 0.3s ease; /* Add transition effect for hover */
+}
+
+.arrow:hover {
+    border-top: 10px solid #ff6600; /* Change arrow color on hover */
+}

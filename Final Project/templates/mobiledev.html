@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block title %}App Development{% endblock %}
+
+{% block body %}
+<section class="bg-light">
+    <div class="container p-5">
+        <h3 class="text-center text-secondary" id='learn'>Courses</h3>
+        <div class="roadmap">
+            <div class="course">
+                <a href="https://youtu.be/F9UC9DY-vIU?si=VnodG2DbP-owaWbJ" class="text-decoration-none" target="_blank">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="/static/codecademy.svg" alt="" style="height:100px;width:100px" class="card-img w-25">
+                            <br>
+                            <h4 class="card-title mb-4">
+                                Kotlin Course - Tutorial for Beginners
+                            </h4>
+                            <p class="card-text" >Codecademy</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="arrow"></div>
+            <div class="course">
+                <a href="https://www.udemy.com/course/the-complete-android-oreo-developer-course/" class="text-decoration-none" target="_blank">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="/static/udemy.svg" alt="" style="height:100px;width:100px" class="card-img w-25">
+                            <br>
+                            <h4 class="card-title mb-4">
+                                The Complete Android Oreo Developer Course - Build 23 Apps!
+                            </h4>
+                            <p class="card-text" >Udemy</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="arrow"></div>
+            <div class="course">
+                <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html" class="text-decoration-none" target="_blank">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="/static/AppDevelopper.svg" alt="" style="height:100px;width:100px" class="card-img w-25">
+                            <br><br>
+                            <h4 class="card-title mb-4">
+                                Build your own App
+                            </h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="arrow"></div>
+            <div class="course">
+                <a href="https://www.linkedin.com" class="text-decoration-none" target="_blank">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="/static/linkedin.svg" alt="" style="height:100px;width:100px" class="card-img w-25">
+                            <br><br>
+                            <h4 class="card-title mb-4">
+                                Go find a job
+                            </h4>
+                            <p class="card-text" >Linkedin</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+</section>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block body %}
+    <!-- https://memegen.link/ -->
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <img alt="{{ top }}" class="border img-fluid" style="height:700px;width:700px" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://i.imgur.com/CsCgN7Ll.png&width=400" title="{{ top }}">
+    </div>
+{% endblock %}
